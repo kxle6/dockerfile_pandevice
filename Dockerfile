@@ -11,6 +11,8 @@ RUN pip install requests
 
 RUN pip install pan-python
 
+RUN pip install pandevice
+
 RUN git clone https://github.com/PaloAltoNetworks/pandevice
 
 RUN cd pandevice/examples
